@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  height: 40px;
+  border-radius: 0.3rem;
+  border: none;
+  box-shadow: 0 0 5px #000;
+}
+.btn-count {
+  text-decoration: none;
+  background-color: #66cc2b;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 0.3rem;
+}
